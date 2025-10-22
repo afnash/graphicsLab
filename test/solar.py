@@ -58,9 +58,6 @@ def draw_planets():
     glEnd()
     glPopMatrix()
 
-
-
-    
     glPushMatrix()
     glRotatef(angle_orbit*0.7,0,0,1) #revolve
     glTranslatef(150,0,0)
