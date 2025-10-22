@@ -3,7 +3,6 @@ from OpenGL.GLU import *
 from OpenGL.GLUT import *
 import math
 
-# --- Ball and slope parameters ---
 r = 25
 x = -250
 y = 10
@@ -13,7 +12,6 @@ loss = 0.99
 top = 250
 angle_spin = 0
 
-# Motion state
 phase = 0  # 0 = down right, 1 = flat right, 2 = up right,
             # 3 = down left, 4 = flat left, 5 = up left
 
